@@ -39,8 +39,8 @@ jsonld_metadata_mapping = {
     "identifier": "dcterms:identifier",
     "accessLevel": "pod:accessLevel",
         
-    "bureauCode": "pod:bureauCode",
-    "programCode": "pod:programCode",
+    # "bureauCode": "pod:bureauCode",
+    # "programCode": "pod:programCode",
     "accessLevelComment": "pod:accessLevelComment",
     "dataDictionary": "dcat:dataDictionary",
     "accessURL": "dcat:accessURL",

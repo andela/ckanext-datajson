@@ -31,8 +31,8 @@ def make_datajson_entry(package):
         ("keyword", [t["display_name"] for t in package["tags"]]),
         ("modified", extra(package, "Date Updated")),
         ("publisher", package["author"]),
-        ("bureauCode", extra(package, "Bureau Code").split(" ") if extra(package, "Bureau Code") else None),
-        ("programCode", extra(package, "Program Code").split(" ") if extra(package, "Program Code") else None),
+        # ("bureauCode", extra(package, "Bureau Code").split(" ") if extra(package, "Bureau Code") else None),
+        # ("programCode", extra(package, "Program Code").split(" ") if extra(package, "Program Code") else None),
         ("contactPoint", extra(package, "Contact Name")),
         ("mbox", extra(package, "Contact Email")),
         ("identifier", package["id"]),
@@ -262,7 +262,7 @@ class JsonExportBuilder:
             for pair in [
                 ('bureauCode', 'bureau_code'),  # required
                 ('language', 'language'),  # optional
-                ('programCode', 'program_code'),  # required
+                #('programCode', 'program_code'),  # required
                 ('references', 'related_documents'),  # optional
                 ('theme', 'category'),  # optional
             ]:
