@@ -476,8 +476,8 @@ class DatasetHarvesterBase(HarvesterBase):
             "identifier": "extras__identifier", # !id
             "accessLevel": "extras__accessLevel",
 
-            "bureauCode": "extras__bureauCode",
-            "programCode": "extras__programCode",
+            # "bureauCode": "extras__bureauCode",
+            # "programCode": "extras__programCode",
             "rights": "extras__rights",
             "license": "extras__license", # !license_id
             "spatial": "extras__spatial", # Geometry not valid GeoJSON, not indexing

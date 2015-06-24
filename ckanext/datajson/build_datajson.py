@@ -260,7 +260,7 @@ class JsonExportBuilder:
             ]
 
             for pair in [
-                ('bureauCode', 'bureau_code'),  # required
+                #('bureauCode', 'bureau_code'),  # required
                 ('language', 'language'),  # optional
                 #('programCode', 'program_code'),  # required
                 ('references', 'related_documents'),  # optional
