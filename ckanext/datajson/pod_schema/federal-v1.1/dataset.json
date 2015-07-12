@@ -7,7 +7,6 @@
   "required": [
     "title",
     "description",
-    "keyword",
     "modified",
     "publisher",
     "contactPoint",
